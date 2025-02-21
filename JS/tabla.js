@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         9: ["Ética Profesional", "Innovación Tecnológica", "Ciberseguridad", "Administración de Redes", "Taller de Titulación"]
     };
 
-    // Crear botones para cada semestre
+    
     Object.keys(semesters).forEach(sem => {
         const button = document.createElement("button");
         button.className = "btn btn-outline-light m-1";
