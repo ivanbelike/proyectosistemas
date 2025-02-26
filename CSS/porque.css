@@ -6,9 +6,16 @@ body {
 main {
     flex: 1;
 }
+.navbar {
+    background: rgba(0, 0, 0, 0.75) !important;
+    backdrop-filter: blur(5px);
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
 .hero-section {
     position: relative;
-    background: url('img/porque-bg.jpg') no-repeat center center/cover;
+    background: url('../IMG/porque2.jpg') no-repeat center center/cover;
     min-height: 50vh;
     display: flex;
     align-items: center;

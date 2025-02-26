@@ -15,7 +15,7 @@ main {
 }
 .hero-section {
     position: relative;
-    background: url('img/gallery-bg.jpg') no-repeat center center/cover;
+    background: url('../IMG/galeria.jpg') no-repeat center center/cover;
     min-height: 50vh;
     display: flex;
     align-items: center;
@@ -34,6 +34,7 @@ main {
     position: relative;
     animation: fadeIn 1.5s ease-in-out;
 }
+
 .carousel {
     position: relative;
     max-width: 800px;

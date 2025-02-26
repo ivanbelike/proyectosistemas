@@ -16,7 +16,7 @@ main {
 } 
 .hero-section {
     position: relative;
-    background: url('img/mision-bg.jpg') no-repeat center center/cover;
+    background: url('../IMG/mision2.jpg') no-repeat center center/cover;
     min-height: 50vh;
     display: flex;
     align-items: center;
